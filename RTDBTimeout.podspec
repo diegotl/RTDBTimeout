@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'RTDB-Timeout'
+  s.name             = 'RTDBTimeout'
   s.version          = '0.0.1'
   s.summary          = 'A Firebase Realtime Database iOS extension providing timeout support and simultaneous connections saving.'
 
@@ -11,8 +11,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'RTDB-Timeout/**/*.{h,swift}'
+  s.source_files = 'RTDBTimeout/**/*.{h,swift}'
 
+  s.static_framework = true
   s.dependency 'Firebase/Core'
   s.dependency 'Firebase/Database'
+
 end

@@ -6,7 +6,7 @@
 //  Copyright © 2017 Diego Trevisan Lara. All rights reserved.
 //
 
-import Firebase
+import FirebaseDatabase
 
 fileprivate var timerKey: UInt8 = 0
 fileprivate var cancelKey: UInt8 = 1
@@ -35,7 +35,7 @@ extension DatabaseReference {
     
 }
 
-extension DatabaseReference {
+public extension DatabaseReference {
     
     func observeSingleEvent(of: DataEventType, with: @escaping (DataSnapshot) -> Void, withCancel: ((Error) -> Void)?, timeout: TimeInterval = Database.defaultTimeout) {
         

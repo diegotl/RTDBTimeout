@@ -6,9 +6,9 @@
 //  Copyright © 2017 Diego Trevisan Lara. All rights reserved.
 //
 
-import Firebase
+import FirebaseDatabase
 
-extension Database {
+public extension Database {
     
     static var defaultTimeout: TimeInterval!
     private static var saveConnections: Bool!

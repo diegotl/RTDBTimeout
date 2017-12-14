@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FBB18A11FE2D454005595D9 /* RTDB_Timeout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBB189F1FE2D454005595D9 /* RTDB_Timeout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FBB18A91FE2D477005595D9 /* Database+OnDemand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB18A71FE2D477005595D9 /* Database+OnDemand.swift */; };
-		3FBB18AC1FE2D490005595D9 /* DatabaseReference+Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB18AB1FE2D490005595D9 /* DatabaseReference+Timeout.swift */; };
+		3FBB18BC1FE2DCD9005595D9 /* RTDBTimeout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBB18BA1FE2DCD9005595D9 /* RTDBTimeout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FBB18C41FE2DCF0005595D9 /* Database+OnDemand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB18C21FE2DCF0005595D9 /* Database+OnDemand.swift */; };
+		3FBB18C51FE2DCF0005595D9 /* DatabaseReference+Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB18C31FE2DCF0005595D9 /* DatabaseReference+Timeout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3FBB189C1FE2D454005595D9 /* RTDB_Timeout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTDB_Timeout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FBB189F1FE2D454005595D9 /* RTDB_Timeout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTDB_Timeout.h; sourceTree = "<group>"; };
-		3FBB18A01FE2D454005595D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FBB18A71FE2D477005595D9 /* Database+OnDemand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Database+OnDemand.swift"; sourceTree = "<group>"; };
-		3FBB18AB1FE2D490005595D9 /* DatabaseReference+Timeout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatabaseReference+Timeout.swift"; sourceTree = "<group>"; };
+		3FBB18B71FE2DCD9005595D9 /* RTDBTimeout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTDBTimeout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBB18BA1FE2DCD9005595D9 /* RTDBTimeout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTDBTimeout.h; sourceTree = "<group>"; };
+		3FBB18BB1FE2DCD9005595D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBB18C21FE2DCF0005595D9 /* Database+OnDemand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Database+OnDemand.swift"; sourceTree = "<group>"; };
+		3FBB18C31FE2DCF0005595D9 /* DatabaseReference+Timeout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatabaseReference+Timeout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3FBB18981FE2D454005595D9 /* Frameworks */ = {
+		3FBB18B31FE2DCD9005595D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,100 +31,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3FBB18921FE2D454005595D9 = {
+		3FBB18AD1FE2DCD9005595D9 = {
 			isa = PBXGroup;
 			children = (
-				3FBB189E1FE2D454005595D9 /* RTDB-Timeout */,
-				3FBB189D1FE2D454005595D9 /* Products */,
+				3FBB18B91FE2DCD9005595D9 /* RTDBTimeout */,
+				3FBB18B81FE2DCD9005595D9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3FBB189D1FE2D454005595D9 /* Products */ = {
+		3FBB18B81FE2DCD9005595D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FBB189C1FE2D454005595D9 /* RTDB_Timeout.framework */,
+				3FBB18B71FE2DCD9005595D9 /* RTDBTimeout.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3FBB189E1FE2D454005595D9 /* RTDB-Timeout */ = {
+		3FBB18B91FE2DCD9005595D9 /* RTDBTimeout */ = {
 			isa = PBXGroup;
 			children = (
-				3FBB189F1FE2D454005595D9 /* RTDB_Timeout.h */,
-				3FBB18A71FE2D477005595D9 /* Database+OnDemand.swift */,
-				3FBB18AB1FE2D490005595D9 /* DatabaseReference+Timeout.swift */,
-				3FBB18A01FE2D454005595D9 /* Info.plist */,
+				3FBB18BA1FE2DCD9005595D9 /* RTDBTimeout.h */,
+				3FBB18C21FE2DCF0005595D9 /* Database+OnDemand.swift */,
+				3FBB18C31FE2DCF0005595D9 /* DatabaseReference+Timeout.swift */,
+				3FBB18BB1FE2DCD9005595D9 /* Info.plist */,
 			);
-			path = "RTDB-Timeout";
+			path = RTDBTimeout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3FBB18991FE2D454005595D9 /* Headers */ = {
+		3FBB18B41FE2DCD9005595D9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FBB18A11FE2D454005595D9 /* RTDB_Timeout.h in Headers */,
+				3FBB18BC1FE2DCD9005595D9 /* RTDBTimeout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3FBB189B1FE2D454005595D9 /* RTDB-Timeout */ = {
+		3FBB18B61FE2DCD9005595D9 /* RTDBTimeout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FBB18A41FE2D454005595D9 /* Build configuration list for PBXNativeTarget "RTDB-Timeout" */;
+			buildConfigurationList = 3FBB18BF1FE2DCD9005595D9 /* Build configuration list for PBXNativeTarget "RTDBTimeout" */;
 			buildPhases = (
-				3FBB18971FE2D454005595D9 /* Sources */,
-				3FBB18981FE2D454005595D9 /* Frameworks */,
-				3FBB18991FE2D454005595D9 /* Headers */,
-				3FBB189A1FE2D454005595D9 /* Resources */,
+				3FBB18B21FE2DCD9005595D9 /* Sources */,
+				3FBB18B31FE2DCD9005595D9 /* Frameworks */,
+				3FBB18B41FE2DCD9005595D9 /* Headers */,
+				3FBB18B51FE2DCD9005595D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "RTDB-Timeout";
-			productName = "RTDB-Timeout";
-			productReference = 3FBB189C1FE2D454005595D9 /* RTDB_Timeout.framework */;
+			name = RTDBTimeout;
+			productName = RTDBTimeout;
+			productReference = 3FBB18B71FE2DCD9005595D9 /* RTDBTimeout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3FBB18931FE2D454005595D9 /* Project object */ = {
+		3FBB18AE1FE2DCD9005595D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Diego Trevisan Lara";
 				TargetAttributes = {
-					3FBB189B1FE2D454005595D9 = {
+					3FBB18B61FE2DCD9005595D9 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 3FBB18961FE2D454005595D9 /* Build configuration list for PBXProject "RTDB-Timeout" */;
+			buildConfigurationList = 3FBB18B11FE2DCD9005595D9 /* Build configuration list for PBXProject "RTDBTimeout" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 3FBB18921FE2D454005595D9;
-			productRefGroup = 3FBB189D1FE2D454005595D9 /* Products */;
+			mainGroup = 3FBB18AD1FE2DCD9005595D9;
+			productRefGroup = 3FBB18B81FE2DCD9005595D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FBB189B1FE2D454005595D9 /* RTDB-Timeout */,
+				3FBB18B61FE2DCD9005595D9 /* RTDBTimeout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3FBB189A1FE2D454005595D9 /* Resources */ = {
+		3FBB18B51FE2DCD9005595D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -134,19 +134,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FBB18971FE2D454005595D9 /* Sources */ = {
+		3FBB18B21FE2DCD9005595D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FBB18AC1FE2D490005595D9 /* DatabaseReference+Timeout.swift in Sources */,
-				3FBB18A91FE2D477005595D9 /* Database+OnDemand.swift in Sources */,
+				3FBB18C51FE2DCF0005595D9 /* DatabaseReference+Timeout.swift in Sources */,
+				3FBB18C41FE2DCF0005595D9 /* Database+OnDemand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3FBB18A21FE2D454005595D9 /* Debug */ = {
+		3FBB18BD1FE2DCD9005595D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		3FBB18A31FE2D454005595D9 /* Release */ = {
+		3FBB18BE1FE2DCD9005595D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +259,7 @@
 			};
 			name = Release;
 		};
-		3FBB18A51FE2D454005595D9 /* Debug */ = {
+		3FBB18C01FE2DCD9005595D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -269,10 +269,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "RTDB-Timeout/Info.plist";
+				INFOPLIST_FILE = RTDBTimeout/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "nl.trevisa.diego.RTDB-Timeout";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.trevisa.diego.RTDBTimeout;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -281,7 +281,7 @@
 			};
 			name = Debug;
 		};
-		3FBB18A61FE2D454005595D9 /* Release */ = {
+		3FBB18C11FE2DCD9005595D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -291,10 +291,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "RTDB-Timeout/Info.plist";
+				INFOPLIST_FILE = RTDBTimeout/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "nl.trevisa.diego.RTDB-Timeout";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.trevisa.diego.RTDBTimeout;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -305,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FBB18961FE2D454005595D9 /* Build configuration list for PBXProject "RTDB-Timeout" */ = {
+		3FBB18B11FE2DCD9005595D9 /* Build configuration list for PBXProject "RTDBTimeout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FBB18A21FE2D454005595D9 /* Debug */,
-				3FBB18A31FE2D454005595D9 /* Release */,
+				3FBB18BD1FE2DCD9005595D9 /* Debug */,
+				3FBB18BE1FE2DCD9005595D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FBB18A41FE2D454005595D9 /* Build configuration list for PBXNativeTarget "RTDB-Timeout" */ = {
+		3FBB18BF1FE2DCD9005595D9 /* Build configuration list for PBXNativeTarget "RTDBTimeout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FBB18A51FE2D454005595D9 /* Debug */,
-				3FBB18A61FE2D454005595D9 /* Release */,
+				3FBB18C01FE2DCD9005595D9 /* Debug */,
+				3FBB18C11FE2DCD9005595D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3FBB18931FE2D454005595D9 /* Project object */;
+	rootObject = 3FBB18AE1FE2DCD9005595D9 /* Project object */;
 }
