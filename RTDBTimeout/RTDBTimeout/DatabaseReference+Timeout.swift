@@ -50,7 +50,18 @@ public extension DatabaseReference {
         }) { error in
             self.finish({ withCancel?(error) })
         }
+    }
+    
+    func store<T>(data:T, success: @escaping () -> Void) {
+        database.connect()
         
+        setValue(data) { error, ref in
+            if error == nil {
+                success()
+            }
+            
+            self.database.disconnect()
+        }
     }
     
     private func finish(_ completion: () -> Void) {
